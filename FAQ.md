@@ -5,7 +5,7 @@ java.lang.NoSuchMethodError: No such DSL method 'cleanWs' found among steps [arc
 ```
 
 **原因**
-- 这是由于没有添加Maven插件，在Jenkins中添加插件：
+- 这是由于没有添加*对应的*插件，在Jenkins中添加插件：
 
 **解决方法**
 - 安装插件 **Workspace Cleanup**
