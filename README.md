@@ -8,7 +8,7 @@ e.g.
 >more details about the instance ,please go to docker image introduction。
 
 ### 2. Install plugin 
-"Manage Jenkins" -> "Manage Plugins" 
+"Manage Jenkins" >> "Manage Plugins" 
 
 plugin : [Templating Engine](https://wiki.jenkins.io/display/JENKINS/Templating+Engine+Plugin)
 
