@@ -1,11 +1,12 @@
 # JTE-demo
-Jenkins Templating Engine demo
+Jenkins Templating Engine demo. This repo also includes **share libraries**
 
 ### 1. Start a jenkins instance
 e.g.
-`docker run --name tw-jenkins -d -p 8081:8080 -v /var/run/docker.sock:/var/run/docker.sock cicddraft/jenkins:v0.4`
 
->more details about the instance ,please go to docker image introduction。
+`docker run --name jenkins -d -p 8081:8080 -v /var/run/docker.sock:/var/run/docker.sock cicddraft/jenkins:v0.4`
+
+>more details about the instance ,please go to docker image [introduction](https://cloud.docker.com/u/cicddraft/repository/docker/cicddraft/jenkins).
 
 ### 2. Install plugin 
 "Manage Jenkins" >> "Manage Plugins" 
@@ -13,8 +14,6 @@ e.g.
 plugin : [Templating Engine](https://wiki.jenkins.io/display/JENKINS/Templating+Engine+Plugin)
 
 ### 3.Configure the plugin
-
-
 
 ---
 Ref:
