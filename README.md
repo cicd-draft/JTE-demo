@@ -15,6 +15,8 @@ plugin : [Templating Engine](https://wiki.jenkins.io/display/JENKINS/Templating+
 
 ### 3.Configure the plugin
 
+![jenkins_jte_config](screenshot/jenkins_jte_config.png)
+
 ---
 Ref:
 
